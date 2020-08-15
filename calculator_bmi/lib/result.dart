@@ -16,7 +16,7 @@ class ResultPage extends StatelessWidget {
       msg = "Please keep your health in check";
     } else if (bmi >= 23) {
       cBMI = "You're Overweight";
-      msg = "Do some exercise and eath healthy";
+      msg = "Do some exercise and eat healthy";
     } else if (bmi >= 17.5) {
       cBMI = "You're Normal";
       msg = "Congratulations, keep it up";
